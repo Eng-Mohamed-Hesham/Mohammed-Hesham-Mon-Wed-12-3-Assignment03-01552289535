@@ -4,7 +4,7 @@
 }
 
 .container {
-    width: 65%;
+    width: 90%;
     margin: auto;
 }
 
@@ -12,10 +12,14 @@
     clear: both;
 }
 
+/* Home Section */
+
 .home .nav {
     background-color: #F5F3FF;
     border-bottom: 1px solid #FFFFFF;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 200;
     width: 100%;
     padding: 15px 0;
@@ -27,7 +31,7 @@
 
 .home .nav .logo .logo-img {
     padding: 8px;
-    background-color: #8E51FF;
+    background-color: #7f22fe;
     border-radius: 10px;
     width: 25px;
     float: left;
@@ -50,18 +54,21 @@
 
 .home .nav .nav-list ul {
     list-style: none;
-    padding: 0;
 }
 
 .home .nav .nav-list li {
     float: right;
-    padding: 15px 15px 15px 0;
+    padding: 15px 0 15px 0;
+    overflow: hidden;
 }
 
 .home .nav .nav-list a {
     text-decoration: none;
-    font-size: 15px;
-    color: #000;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-style:normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .home .nav .nav-list .active {
@@ -69,20 +76,112 @@
     padding-right: 0;
 }
 
-.home .nav .nav-list .active a {
-    color: #8E51FF;
-}
-
 .home .nav .nav-list .active::after {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #8E51FF;
+    background-color: #7f22fe;
     position: absolute;
-    top: 35px;
+    top: 37px;
     left: 0;
 }
 
+.home .nav .nav-list .active a {
+    color: #7f22fe;
+}
+
 .home .nav .nav-list .not-active {
-    padding-left: 15px;
+    margin-left: 35px;
+    position: relative;
+}
+
+.home .nav .nav-list .not-active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #7f22fe;
+    position: absolute;
+    top: 37px;
+    right: 100%;
+    transition: transform 0.3s;
+}
+
+.home .nav .nav-list .not-active a:hover {
+    color: #7f22fe;
+}
+
+.home .nav .nav-list .not-active:hover::after {
+    transform: translateX(100%);
+}
+
+/* Hero Section */
+
+.home .hero-section {
+    margin-top: 10%;
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+.home .hero-section .hero-img {
+    width: 45%;
+    padding: 15px;
+    border: 2px solid #E0E3E7;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+}
+
+.home .hero-section .hero-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.home .hero-section .hero-img::after {
+    content: "-12% OFF";
+    width: 15%;
+    height: 20px;
+    padding: 3px;
+    background-color: #8E51FF;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.home .hero-section .hero-data {
+    background-color: aqua;
+    float: left;
+    width: 47.4%;
+    margin-left: 50px;
+}
+
+.home .hero-section .product-status {
+    float: left;
+    color: #fff;
+    background-color: blue;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.home .hero-section .product-status .state1,
+.home .hero-section .product-status .state2,
+.home .hero-section .product-status .state3 {
+    background-color: #8E51FF;
+    padding: 5px;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.home .hero-section .hero-data h2 {
+    
 }
