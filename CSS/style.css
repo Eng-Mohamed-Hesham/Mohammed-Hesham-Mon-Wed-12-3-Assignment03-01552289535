@@ -30,10 +30,11 @@
 }
 
 .home .nav .logo .logo-img {
-    padding: 8px;
-    background-color: #7f22fe;
+    padding: 7px;
+    background-color: #8e51ff;
     border-radius: 10px;
     width: 25px;
+    height: 25px;
     float: left;
     margin-top: 1px;
 }
@@ -66,7 +67,7 @@
     text-decoration: none;
     font-size: 16px;
     color: rgb(51, 51, 51);
-    font-style:normal;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
@@ -118,7 +119,6 @@
 
 .home .hero-section {
     margin-top: 10%;
-    background-color: yellow;
     height: 100vh;
     position: relative;
 }
@@ -156,7 +156,6 @@
 }
 
 .home .hero-section .hero-data {
-    background-color: aqua;
     float: left;
     width: 47.4%;
     margin-left: 50px;
@@ -165,16 +164,13 @@
 .home .hero-section .product-status {
     float: left;
     color: #fff;
-    background-color: blue;
     width: 100%;
     margin: 20px 0;
 }
 
-.home .hero-section .product-status .state1,
-.home .hero-section .product-status .state2,
-.home .hero-section .product-status .state3 {
-    background-color: #8E51FF;
-    padding: 5px;
+.home .hero-section .product-status span {
+    background-color: #A684FF;
+    padding: 5px 7px;
     border-radius: 13px;
     font-weight: 600;
     font-size: 14px;
@@ -182,6 +178,143 @@
     line-height: 20px;
 }
 
-.home .hero-section .hero-data h2 {
-    
+.home .hero-section .hero-data .text h2 {
+    color: rgb(51, 51, 51);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 10px 0;
+}
+
+.home .hero-section .hero-data .text h2 span {
+    color: #8e51ff;
+}
+
+.home .hero-section .hero-data .text p {
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+    padding: 10px 0;
+    line-height: 33px;
+}
+
+.home .hero-section .hero-data .prices {
+    padding: 20px 0;
+}
+
+.home .hero-section .hero-data .prices span {
+    margin-right: 20px;
+}
+
+.home .hero-section .hero-data .prices .price {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.home .hero-section .hero-data .prices .discount {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    text-decoration: line-through;
+}
+
+.home .hero-section .hero-data .prices .saving {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e7000b;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #FFE2E2;
+}
+
+.home .hero-section .hero-data .description-of-payment {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.home .hero-section .hero-data .add-cart-button {
+    width: 100%;
+    padding: 13px;
+    background-color: #8E51FF;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    border: 0px;
+    transition: scale 0.3s;
+    margin-top: 30px;
+}
+
+.home .hero-section .hero-data .add-cart-button:hover {
+    scale: 1.06;
+}
+
+.home .hero-section .hero-data .add-cart-button .cart-img {
+    float: left;
+    width: 20px;
+    padding: 5px 5px;
+    transform: translateX(145px);
+}
+
+.home .hero-section .hero-data .add-cart-button .cart-img img {
+    width: 100%;
+    scale: 1;
+}
+
+.home .hero-section .hero-data .add-cart-button p {
+    float: left;
+    transform: translateX(155px);
+    scale: 1;
+}
+
+.home .hero-section .hero-data .wishlist-button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #D1D5DC;
+    transition: scale 0.3s;
+}
+
+.home .hero-section .hero-data .wishlist-button:hover {
+    scale: 1.06;
+}
+
+.home .hero-section .hero-data .wishlist-button .wishlist-img {
+    float: left;
+    width: 20px;
+    padding: 5px 5px;
+    transform: translateX(145px);
+}
+
+.home .hero-section .hero-data .wishlist-button .wishlist-img img {
+    width: 100%;
+    scale: 1;
+}
+
+.home .hero-section .hero-data .wishlist-button p {
+    float: left;
+    transform: translateX(155px);
+    scale: 1;
 }
