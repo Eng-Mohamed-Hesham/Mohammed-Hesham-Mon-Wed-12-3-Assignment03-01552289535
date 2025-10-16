@@ -340,6 +340,11 @@ p {
 
 /* table of comparison */
 
+#specifications {
+    background-color: #F7F5FF;
+    padding: 70px 0;
+}
+
 #specifications .comparison {
     padding: 30px 0;
     margin: 0 0 30px 0;
@@ -492,7 +497,7 @@ p {
     padding: 50px 0;
     text-align: left;
     position: relative;
-    margin: 10px 0 80px 0;
+    margin: 10px 0 0 0;
     color: #00A63E;
 }
 
@@ -534,4 +539,336 @@ p {
     font-weight: 400;
     line-height: 20px;
     font-style: normal;
+}
+
+/* reviews-section  */
+
+#reviews {
+    padding: 60px 0 10px 0;
+}
+
+#reviews .title {
+    text-align: center;
+}
+
+#reviews .title h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 0 20px 0;
+}
+
+#reviews .title h2 span {
+    color: #8E51FF;
+}
+
+#reviews .title p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 60px;
+}
+
+/* customers section */
+
+#reviews .customers-review {
+    padding: 100px 0;
+}
+
+#reviews .customers-review .overall-rate {
+    float: left;
+    width: 30%;
+    border: 2px solid #e1e1eb;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 30px;
+    position: sticky;
+    top: 60px;
+}
+
+#reviews .customers-review .overall-rate .inner {
+    padding: 25px;
+}
+
+#reviews .customers-review .overall-rate .inner span {
+    color: rgb(51, 51, 51);
+}
+
+#reviews .customers-review .overall-rate .inner h1 {
+    font-size: 60px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+#reviews .customers-review .overall-rate .inner p {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#reviews .customers-review .overall-rate .inner .overall-stars-rate {
+    width: 60%;
+    margin: auto;
+}
+
+#reviews .customers-review .overall-rate .inner .overall-stars-rate img {
+    width: 30px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .space {
+    padding: 20px 0;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .space span {
+    float: left;
+    padding-left: 20px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .space .num {
+    float: right;
+    padding-right: 20px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .shape {
+    width: 55%;
+    height: 10px;
+    background-color: #E5E7EB;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 0 20px;
+    position: relative;
+}
+
+
+#reviews .customers-review .overall-rate .inner .percentage .five-stars-percentage .shape::after {
+    content: "";
+    width: 78%;
+    height: 10px;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .four-stars-percentage .shape::after {
+    content: "";
+    width: 15%;
+    height: 10px;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .three-stars-percentage .shape::after {
+    content: "";
+    width: 5%;
+    height: 10px;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .two-stars-percentage .shape::after {
+    content: "";
+    width: 1.5%;
+    height: 10px;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+}
+
+#reviews .customers-review .overall-rate .inner .percentage .one-star-percentage .shape::after {
+    content: "";
+    width: 0.5%;
+    height: 10px;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+}
+
+#reviews .customers-review .overall-rate .inner .total {
+    padding: 20px 30px 10px 30px;
+}
+
+#reviews .customers-review .overall-rate .inner .total h3 {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+#reviews .customers-review .overall-rate .inner .total p {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#reviews .customers-review .overall-rate .inner .total .recommend {
+    float: left;
+}
+
+#reviews .customers-review .overall-rate .inner .total .rating {
+    float: right;
+}
+
+#reviews .customers-review .customer {
+    float: right;
+    width: 65%;
+    border: 2px solid #e1e1eb;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#reviews .customers-review .customer .inner {
+    padding: 25px;
+}
+
+#reviews .customers-review .customer .inner .customer-info {
+    float: left;
+    width: 40%;
+}
+
+#reviews .customers-review .customer .inner .customer-info .customer-img {
+    width: 25%;
+    padding-right: 20px;
+    float: left;
+}
+
+#reviews .customers-review .customer .inner .customer-info .customer-img img {
+    width: 100%;
+    border: 2px solid #e1e1eb;
+    border-radius: 50%;
+}
+
+#reviews .customers-review .customer .inner .customer-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-style: normal;
+}
+
+#reviews .customers-review .customer .inner .customer-info span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+}
+
+#reviews .customers-review .customer .inner .customer-info .data {
+    float: left;
+}
+
+#reviews .customers-review .customer .inner .customer-info .rate {}
+
+#reviews .customers-review .customer .inner .customer-info .rate img {
+    width: 15px;
+}
+
+#reviews .customers-review .customer .inner .customer-info .rate span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+    padding-left: 5px;
+}
+
+#reviews .customers-review .customer .inner .customer-status {
+    float: right;
+    text-align: right;
+}
+
+#reviews .customers-review .customer .inner .customer-status span {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    font-style: normal;
+    color: #5d0ec0;
+    background-color: #EDE9FE;
+}
+
+#reviews .customers-review .customer .inner .customer-status p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+    padding: 10px 5px;
+}
+
+#reviews .customers-review .customer .inner p {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+}
+/* button  */
+
+#reviews .customers-review .morebutton {
+    width: 65%;
+    padding: 25px 0;
+    text-align: center;
+    float: right;
+}
+
+#reviews .customers-review .morebutton button {
+    color: #fff;
+    background-color: #7F22FE;
+    width: 30%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 15px 0;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+#reviews .customers-review .morebutton button:hover {
+    border: #7F22FE 2px solid;
+    background-color: #fff;
+    color: #7F22FE;
+    cursor: pointer;
+}
+
+/* products section  */
+
+#products {
+    padding: 50px;
+    background-color: #6a7282;
 }
