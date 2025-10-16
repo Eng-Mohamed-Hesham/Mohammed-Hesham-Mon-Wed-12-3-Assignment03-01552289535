@@ -308,9 +308,11 @@ p {
     scale: 1;
 }
 
+/* specifications section */
+
 #specifications {
     background-color: #F7F5FF;
-} 
+}
 
 #specifications .title {
     text-align: center;
@@ -325,7 +327,7 @@ p {
 }
 
 #specifications .title h2 span {
-    color: #8E51FF;   
+    color: #8E51FF;
 }
 
 #specifications .title p {
@@ -336,3 +338,149 @@ p {
     padding-bottom: 60px;
 }
 
+/* table of comparison */
+
+#specifications .comparison {
+    padding: 30px 0;
+    margin: 0 0 30px 0;
+    border: 2px solid #D1D5DC;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+
+}
+
+#specifications .inner {
+    padding: 0 15px;
+}
+
+#specifications .comparison img {
+    width: 20px;
+    padding-right: 8px;
+}
+
+#specifications .comparison .stars img {
+    width: 20px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+}
+
+#specifications .comparison .inner table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+
+#specifications .comparison .inner table::after {
+    content: "";
+    width: 19%;
+    height: 100%;
+    background-color: #7008e717;
+    position: absolute;
+    top: 0;
+    left: 23%;
+    border-radius: 15px;
+}
+
+#specifications .comparison .inner table .left-col {
+    text-align: left;
+    width: 23%;
+}
+
+#specifications .comparison .inner table th,
+#specifications .comparison .inner table td {
+    width: 19%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+}
+
+#specifications .comparison .inner table th {
+    border-bottom: 2px solid #ddd;
+
+}
+
+#specifications .comparison .inner table .no-border td {
+    border-bottom: none;
+}
+
+#specifications .comparison .inner table thead .left-col {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+}
+
+#specifications .comparison .inner table thead th,
+#specifications .comparison .inner table .no-border .special-weight {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+}
+
+#specifications .comparison .inner table thead th span {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6a7282;
+}
+
+#specifications .comparison .inner table thead th .burble-col {
+    color: #7008E7;
+    display: inline-block;
+}
+
+#specifications .comparison .inner table thead th .light-font {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#specifications .comparison .inner table tbody tr td .our-product {
+    color: #fff;
+    background-color: #8E51FF;
+    padding: 4px 8px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+}
+
+#specifications .comparison .inner table tbody tr .orange {
+    color: #e55c00;
+}
+
+#specifications .comparison .inner table tbody tr .burble-text {
+    color: #7008e7;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#specifications .comparison .inner table img,
+.hero-section img {
+    transform: translateY(4px);
+}
+
+#specifications .comparison .inner table tbody tr td .special-font {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#specifications .comparison .inner table tbody tr .diff-size {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
