@@ -312,6 +312,7 @@ p {
 
 #specifications {
     background-color: #F7F5FF;
+    padding: 70px 0;
 }
 
 #specifications .title {
@@ -339,11 +340,6 @@ p {
 }
 
 /* table of comparison */
-
-#specifications {
-    background-color: #F7F5FF;
-    padding: 70px 0;
-}
 
 #specifications .comparison {
     padding: 30px 0;
@@ -544,7 +540,7 @@ p {
 /* reviews-section  */
 
 #reviews {
-    padding: 60px 0 10px 0;
+    padding: 0px 0 50px 0;
 }
 
 #reviews .title {
@@ -574,7 +570,7 @@ p {
 /* customers section */
 
 #reviews .customers-review {
-    padding: 100px 0;
+    padding: 0 0 100px 0;
 }
 
 #reviews .customers-review .overall-rate {
@@ -786,8 +782,6 @@ p {
     float: left;
 }
 
-#reviews .customers-review .customer .inner .customer-info .rate {}
-
 #reviews .customers-review .customer .inner .customer-info .rate img {
     width: 15px;
 }
@@ -835,6 +829,7 @@ p {
     font-style: normal;
     color: rgb(51, 51, 51);
 }
+
 /* button  */
 
 #reviews .customers-review .morebutton {
@@ -857,6 +852,7 @@ p {
     line-height: 24px;
     font-style: normal;
     margin-bottom: 50px;
+    transition: background-color 0.3s;
 }
 
 #reviews .customers-review .morebutton button:hover {
@@ -869,6 +865,228 @@ p {
 /* products section  */
 
 #products {
-    padding: 50px;
-    background-color: #6a7282;
+    padding: 70px 0;
 }
+
+#products .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#products .title h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 70px 0 20px 0;
+}
+
+#products .title h2 span {
+    color: #8E51FF;
+}
+
+#products .title p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+/* item  */
+
+#products .items {
+    overflow: hidden;
+}
+
+#products .item {
+    text-align: left;
+    width: calc((100% - 228px) / 4);
+    float: left;
+    border: 1px solid #6a72827a;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#products .items .i1 {
+    position: relative;
+}
+
+#products .items .i2 {
+    margin: 0 20px;
+    position: relative;
+}
+
+#products .items .i3 {
+    margin: 0 20px 0 0;
+    position: relative;
+}
+
+#products .items .i4 {
+    position: relative;
+}
+
+
+#products .items .i1::after {
+    content: "Accessory";
+    /* width: 27%; */
+    height: 15px;
+    background-color: #00BBA7;
+    color: #FFFFFF;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+}
+
+#products .items .i2::after {
+    content: "Essential";
+    /* width: 27%; */
+    height: 15px;
+    background-color: #00C951;
+    color: #FFFFFF;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px;
+}
+
+#products .items .i3::after {
+    content: "Power";
+    /* width: 27%; */
+    height: 15px;
+    background-color: #00B8DB;
+    color: #FFFFFF;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px;
+}
+
+#products .items .i4::after {
+    content: "Safety";
+    /* width: 27%; */
+    height: 15px;
+    background-color: #FF6900;
+    color: #FFFFFF;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px;
+}
+
+#products .items .item .inner .item-img {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#products .items .item .inner .item-img img {
+    width: 100%;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+#products .items .item:hover .inner .item-img img {
+    transform: scale(1.06);
+}
+
+
+#products .items .item .inner span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+    padding: 30px 0;
+}
+
+#products .items .item .inner p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    padding: 20px 0;
+}
+
+#products .items .item .inner .price-and-button span {
+    float: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 30%;
+    padding: 10px 0;
+}
+
+#products .items .item .inner .price-and-button button {
+    background-color: #8E51FF;
+    float: right;
+    width: 50%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 20px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+#products .all-access-button {
+    padding: 50px;
+    text-align: center;
+}
+
+#products .all-access-button button {
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #7F22FE;
+    border: #7F22FE 2px solid;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+}
+
+#products .all-access-button button:hover {
+    border: 0px;
+    color: #fff;
+    background-color: #7F22FE;
+    cursor: pointer;
+}
+
+/* footer  */
+
+#footer { 
+    background-color: #101828;
+    padding: 30px;
+}
+
