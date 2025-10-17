@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 90%;
     margin: auto;
@@ -866,6 +870,7 @@ p {
 
 #products {
     padding: 70px 0;
+    background-color: #F7F5FF;
 }
 
 #products .title {
@@ -1085,8 +1090,149 @@ p {
 
 /* footer  */
 
-#footer { 
+#footer {
     background-color: #101828;
     padding: 30px;
+    text-align: left;
 }
 
+#footer .company-data {
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+#footer .company-data .logo-title {
+    margin-top: 22px;
+}
+
+#footer .company-data .logo-title img {
+    width: 30px;
+    margin: 0 10px 0 0;
+    float: left;
+    background-color: #7F22FE;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#footer .company-data .logo-title span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    float: left;
+}
+
+#footer .company-data p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+#footer .company-data .important-links .icon1:hover {
+    background-color: #1877F2;
+    cursor: pointer;
+}
+
+#footer .company-data .important-links .icon2:hover {
+    background-color: #1DA1F2;
+    cursor: pointer;
+}
+
+#footer .company-data .important-links .icon3:hover {
+    background-color: #E4405F;
+    cursor: pointer;
+}
+
+#footer .company-data .important-links .icon4:hover {
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+#footer .company-data .important-links img {
+    width: 8%;
+    padding: 10px;
+    background-color: #1E2939;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    transition: background-color 0.4s;
+}
+
+#footer .links {
+    padding: 10px;
+    width: 22%;
+    float: left;
+}
+
+#footer .links span {
+    display: block;
+    padding: 20px 20px 20px 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+#footer .links a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #57729b9a;
+}
+
+#footer .links a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#footer hr {
+    height: 0.5px;
+    background-color: #cccccc41;
+    border: none;
+    margin: 10px 0 20px 0;
+}
+
+#footer .rights {
+    padding: 20px;
+}
+
+#footer .rights p {
+    float: left;
+    color: white;
+}
+
+#footer .rights .pay {
+    float: right;
+}
+
+#footer .rights .pay1,
+#footer .rights .pay2,
+#footer .rights .pay3 {
+    width: 80px;
+    padding: 10px;
+    height: 20px;
+    background-color: white;
+    float: left;
+    border-radius: 8px;
+    margin-left: 10px;
+    transform: translateY(-15px);
+}
+
+#footer .rights .pay3 {
+    margin-right: 0;
+}
+
+#footer .rights .pay1 img,
+#footer .rights .pay2 img,
+#footer .rights .pay3 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
